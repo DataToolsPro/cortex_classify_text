@@ -31,7 +31,7 @@ SELECT
       'task_description': 'Return a classification of Account based on the descriptions and examples in the SearchString text.'
     }
   ) AS classification_result
-FROM MARKETING.PROSPECTS.TWEETSCRAPE 
+FROM MARKETING.PRESPECTS.TWEETFOLLOWERS 
 WHERE country_code IN ('US','CA') 
   AND "segment" = 'salesforceadms' 
 LIMIT 20;
