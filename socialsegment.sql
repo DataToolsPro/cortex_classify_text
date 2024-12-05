@@ -33,5 +33,5 @@ SELECT
   ) AS classification_result
 FROM MARKETING.PROSPECTS.TWEETSCRAPE 
 WHERE country_code IN ('US','CA') 
-  AND "Scraped from" = 'salesforceadms' 
+  AND "segment" = 'salesforceadms' 
 LIMIT 20;
