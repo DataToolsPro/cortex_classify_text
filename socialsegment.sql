@@ -4,7 +4,7 @@ SELECT
 
   -- CORTEX FUNCTION TO CATEGORIZE AND CLASSIFY MY TWITTER FOLLOWERS
   SNOWFLAKE.CORTEX.CLASSIFY_TEXT(
-    '"SearchString"',
+    "SearchString",
     [
       {
         'label': 'company',
